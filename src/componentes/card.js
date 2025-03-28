@@ -17,11 +17,12 @@ class Card extends HTMLElement {
     }
 
     render() {
-        const id = this.getAttribute("id") || "Título de la Noticia";
-        const fecha = this.getAttribute("fecha") || "Fecha no disponible";
-        const descripcion = this.getAttribute("descripcion") || "Descripción breve de la noticia.";
-        const autor = this.getAttribute("autor") || "Autor desconocido";
-        const imagenPerfil = this.getAttribute("imagen-perfil") || "https://source.unsplash.com/100x100/?person";
+        const id = this.getAttribute("id") || "id";
+        const destino = this.getAttribute("destino") || "lugar";
+        const duracion = this.getAttribute("duracion") || "Descripción breve de la noticia.";
+        const costo = this.getAttribute("costo") || "Precio";
+        const descripcion = this.getAttribute("descripcion") || "descripcion breve del lugar";
+        const actividades = this.getAttribute("actividades") ||
 
         this.shadowRoot.innerHTML = `
             <style>
