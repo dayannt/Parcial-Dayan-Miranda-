@@ -34,7 +34,7 @@ class Card extends HTMLElement {
 
         this.shadowRoot.innerHTML = `
             <style>
-                .tarjeta-noticia {
+                .tarjeta-travel {
                     width: 450px;
                     height: 250px;
                     margin: 5px;
@@ -46,23 +46,23 @@ class Card extends HTMLElement {
                     transition: transform 0.3s ease-in-out;
                     background: rgba(197, 193, 193, 0.71); 
                 }
-                .tarjeta-noticia:hover {
+                .tarjeta-travel:hover {
                     transform: scale(1.05);
                 }
-                .contenido-noticia {
+                .contenido-travel {
                     padding: 15px;
                 }
-                .contenido-noticia h2 {
+                .contenido-travel h2 {
                     font-size: 1.2em;
                     margin: 0;
                     color: #ffff;
                 }
-                .contenido-noticia p {
+                .contenido-travel p {
                     font-size: 0.9em;
                     color: #000;
                     margin: 10px 0;
                 }
-                .fecha-noticia {
+                .id-travel {
                     font-size: 0.8em;
                     color: #999;
                     margin-bottom: 10px;
