@@ -21,8 +21,16 @@ class Card extends HTMLElement {
         const destino = this.getAttribute("destino") || "lugar";
         const duracion = this.getAttribute("duracion") || "Descripción breve de la noticia.";
         const costo = this.getAttribute("costo") || "Precio";
-        const descripcion = this.getAttribute("descripcion") || "descripcion breve del lugar";
-        const actividades = this.getAttribute("actividades") ||
+        const descripcion = this.getAttribute("descripcion") || "Descripcion breve del lugar";
+        const actividades = this.getAttribute("actividades") || "Descripcion breve de las actividades";
+        const reservado = this.getAttribute("reservado") || "Esta reservado"
+        const imagen = this.getAttribute ("imagen") || "https://picsum.photos/200"
+        const calificacion = this.getAttribute("calificacion") || "Puntuacion"
+        const guia_incluido = this.guia_incluido("guia_incluido") || "No hay guia disponible"
+
+
+
+
 
         this.shadowRoot.innerHTML = `
             <style>
