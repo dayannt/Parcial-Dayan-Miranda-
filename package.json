@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "parcial-dayan-miranda-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayannt/Parcial-Dayan-Miranda-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayannt/Parcial-Dayan-Miranda-/issues"
+  },
+  "homepage": "https://github.com/dayannt/Parcial-Dayan-Miranda-#readme",
+  "description": ""
+}
