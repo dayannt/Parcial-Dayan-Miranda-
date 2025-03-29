@@ -1,5 +1,5 @@
-import Card from "./card.js"; 
-import getCards from "./getcards.js"; 
+import Card from "./card.js" ;
+import getCards from "./getcard.js"; 
 
 class CardContainer extends HTMLElement {
     constructor() {
@@ -18,9 +18,22 @@ class CardContainer extends HTMLElement {
 
         this.shadowRoot.innerHTML = `
             <style>
+                    :host {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: center;
+                    padding: 0px;
+                }
+                .grid-travel {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                    gap: 20px;
+                    max-width: 1200px;
+                }
 
             </style>
-            <div class="grid-noticias">
+            <div class="grid-travel">
                 ${cards.map(card => `
                     <card-element 
                      id=""${card.id}"

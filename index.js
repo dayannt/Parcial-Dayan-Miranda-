@@ -1,6 +1,6 @@
 
-import Card from './src/components/card/Card.js';
-import CardContainer from './src/components/card/CardContainer.js';
+import Card from './src/componentes/card.js';
+import CardContainer from './src/componentes/card.container.js';
 
 customElements.define("card-element", Card);
 customElements.define("card-container", CardContainer);

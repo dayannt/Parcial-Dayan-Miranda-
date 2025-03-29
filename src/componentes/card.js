@@ -67,32 +67,12 @@ class Card extends HTMLElement {
                     color: #999;
                     margin-bottom: 10px;
                 }
-                .autor-noticia {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                }
-                .autor-noticia img {
-                    width: 30px;
-                    height: 30px;
-                    border-radius: 50%;
-                    padding: 15px;
-                }
+
             </style>
-            <div class="tarjeta-noticia">
-                <div class="contenido-noticia">
-                    <h2>${titulo}</h2>
-                    <p class="fecha-noticia">Publicado el: ${fecha}</p>
-                    <p>${descripcion}</p>
-                </div>
-                <div class="autor-noticia">
-                    <img src="${imagenPerfil}" alt="Autor">
-                    <span>${autor}</span>
-                </div>
-            </div>
-        `;
+
     }
 }
+
 
 
 export default Card;
